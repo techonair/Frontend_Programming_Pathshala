@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+span{
+    color: darkgoldenrod;
+}
+
+.test1{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 100px;
+    right: 50px;
+}
+
+.test2 {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    position: static;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 200px;
+    align-items: center;
+}
+
+.logo{
+    order: 3;
+}
+
+.links{
+    order: 1;
+}
+
+.link{
+    margin: 0px 10px
+}
+
+.action{
+    display: flex;
+    order: 2;
+}
+
+.banner{
+    background-image: url("../assests/240_F_467961418_UnS1ZAwAqbvVVMKExxqUNi0MUFTEJI83 2.png");
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.heading{
+    color: darkgoldenrod;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    text-shadow: 1px 1px 2px chocolate;
+    border: solid;
+    padding: 7px 7px;
+    margin: 10px 5px 15px 8px;
+}
+
+.about{
+    color:aqua
+}
+
+.eventHeading{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.blueSmallHeading{
+    color: blue;
+}
+
+@media screen and (min-width:500px){
+    .heading{
+        border: 5px solid greenyellow;
+        font-size: 4em;
+    }
+}
